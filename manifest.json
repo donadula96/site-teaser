@@ -1,0 +1,28 @@
+{
+  "name": "Telugu Tots",
+  "short_name": "TeluguTots",
+  "description": "A small, slow project exploring play, memory and home — for children growing up between stories, languages and skies.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5efe7",
+  "theme_color": "#e5391c",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
