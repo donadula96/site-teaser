@@ -98,16 +98,6 @@
       padding: 0 24px;
     }
 
-    /* NEW LOGO PLACEMENT */
-    .hero-logo {
-      margin-bottom: 18px;
-    }
-    .hero-logo img {
-      width: 150px;
-      height: auto;
-      display: block;
-    }
-
     .hero-badge {
       padding: 7px 28px;
       border-radius: 999px;
@@ -317,6 +307,7 @@
       background: rgba(255,255,255,0.75);
       box-shadow: 0 6px 20px rgba(0,0,0,0.06);
       transition: 0.2s ease;
+      text-decoration: none;
     }
 
     .footer-icon-link:hover {
@@ -329,6 +320,19 @@
       width: 15px;
       height: 15px;
       opacity: 0.82;
+    }
+
+    /* Visually hidden, for screen readers only */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
     }
 
     @media (max-width: 768px) {
@@ -346,12 +350,6 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-
-      <!-- UPDATED LOGO POSITION -->
-      <div class="hero-logo">
-        <img src="https://donadula96.github.io/site-teaser/images/telugu-tots-logo-red.png" alt="Telugu Tots Logo">
-      </div>
-
       <div class="hero-badge">QUIETLY IN PROGRESS</div>
 
       <h1 class="hero-title">TELUGU TOTS</h1>
@@ -469,7 +467,7 @@
     <img 
       src="https://donadula96.github.io/site-teaser/images/telugu-tots-logo-red.png"
       alt="Telugu Tots Logo"
-      style="width:105px; height:auto; opacity:0.95;"
+      style="width:140px; height:auto; opacity:0.96;"
     />
   </div>
 
